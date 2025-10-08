@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias por tu compra</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('fondo.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Orbitron', sans-serif;
+      color: #000;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-top: 20px;
+      opacity: 0.8;
+    }
+
+    .contenedor {
+      background-color: rgba(255, 255, 255, 0.85);
+      display: inline-block;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      animation: fadeUp 1s ease-out;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Darkoteca & Klub</h1>
+    <h2>Gracias por tu compra, ya estás en el guest list</h2>
+    <p>Guarda tu comprobante por cualquier aclaración</p>
+  </div>
+</body>
+</html>
